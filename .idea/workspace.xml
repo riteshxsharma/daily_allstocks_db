@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946b5910-ef27-4005-b342-f38372df51cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="946b5910-ef27-4005-b342-f38372df51cf" name="Changes" comment="Initial Commit setting up folder structure and files for proejct" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +51,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725291783754</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit setting up folder structure and files for proejct">
+      <option name="closed" value="true" />
+      <created>1725294365845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725294365845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit setting up folder structure and files for proejct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit setting up folder structure and files for proejct" />
   </component>
 </project>
