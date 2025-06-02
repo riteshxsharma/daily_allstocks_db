@@ -4,11 +4,16 @@ This project processes CSV data containing volume information for UA stock marke
 
 ## How to Use
 
-- The CSV data format needs to be defined.
-- The PostgreSQL schema needs to be defined.
+This section describes how to use the project.
 
-To run the script:
+**CSV Data Format:**
+(To be defined: Specify the expected format of the input CSV files.)
 
+**PostgreSQL Schema:**
+(To be defined: Describe the target table structure in your PostgreSQL database.)
+
+**Running the script:**
+To process the data, run the main script from the `scripts` directory:
 ```bash
 python scripts/main.py
 ```
@@ -16,32 +21,25 @@ python scripts/main.py
 ## Setting up the Environment
 
 ### Prerequisites
-
-- Python
+- Python (version 3.x recommended)
 - PostgreSQL
 
-### Installing Dependencies
-
-To install the necessary Python libraries, run:
-
+### Dependencies
+Install the necessary Python packages using pip:
 ```bash
 pip install pandas psycopg2-binary
 ```
 
 ## Contributing
 
-We welcome contributions to improve this project! If you'd like to contribute, please follow these general guidelines:
-
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix.
-3. Make your changes, ensuring to follow any existing coding style.
-4. Test your changes thoroughly.
-5. Submit a pull request with a clear description of your changes.
+3. Make your changes and commit them with clear messages.
+4. Submit a pull request for review.
 
 ## License
 
 This project is released under the MIT License.
 
-The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT). It puts only very limited restriction on reuse and has, therefore, an excellent license compatibility.
-
-It is recommended to create a `LICENSE` file in the root of the project containing the full text of the MIT License.
+We recommend creating a `LICENSE` file in the root of your project with the full text of the MIT License.
