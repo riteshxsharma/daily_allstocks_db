@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="946b5910-ef27-4005-b342-f38372df51cf" name="Changes" comment="Initial Commit setting up folder structure and files for proejct" />
+    <list default="true" id="946b5910-ef27-4005-b342-f38372df51cf" name="Changes" comment="Initial Commit setting up folder structure and files for project">
+      <change afterPath="$PROJECT_DIR$/data/your_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/clean_csv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/create_table_newload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/create_table_postgres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/db_manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/df_createclean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/downloader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/generate_sql_loadcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/generate_sql_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/load_data_climit_allstocksml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/load_data_into_allstocksml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/load_latest_cleandata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/main2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/main3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/pmschedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/query_filter_columns_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/query_filter_columns_program5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/requirments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/stock_price_average.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/stock_price_avg10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/trend_ml_sixmavg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/view_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,21 +45,86 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;riteshxsharma&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/riteshxsharma/daily_allstocks_db&quot;,
+    &quot;accountId&quot;: &quot;5bb53563-6609-49d6-964c-e1123a566537&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2lWNHMnraahnI4Cnn2sZbXovqDX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.clean_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_table_newload.executor&quot;: &quot;Run&quot;,
+    &quot;Python.create_table_postgres.executor&quot;: &quot;Run&quot;,
+    &quot;Python.df_createclean.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_sql_loadcode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_sql_v1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_data_allstockssep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_data_into_allstocksml.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_data_into_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_data_sql.executor&quot;: &quot;Run&quot;,
+    &quot;Python.load_latest_cleandata.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pmschedule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.query_filter_columns_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.query_filter_columns_program5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stock_price_average.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stock_price_avg10.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Owner/PycharmProjects/Stock-Market-Earning-Forecasting&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Owner\PycharmProjects\daily_allstocks_db\scripts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="load_data_into_allstocksml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="daily_allstocks_db" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/load_data_into_allstocksml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.load_data_into_allstocksml" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -59,11 +149,31 @@
       <option name="project" value="LOCAL" />
       <updated>1725294365845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit setting up folder structure and files for project">
+      <option name="closed" value="true" />
+      <created>1725294814548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725294814548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit setting up folder structure and files for proejct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit setting up folder structure and files for proejct" />
+    <MESSAGE value="Initial Commit setting up folder structure and files for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit setting up folder structure and files for project" />
   </component>
 </project>
